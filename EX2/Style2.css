@@ -1,0 +1,18 @@
+#rectangle
+{
+    width: 100px;
+    height: 100px;
+    background-color:#0B24FB;
+    border-style:solid;
+    margin: 10px;
+    text-align: center;
+    font-size:50px;
+    color: white;
+}
+#flexos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
