@@ -1,0 +1,36 @@
+#rectangle
+{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-color: yellow;
+    border-style:solid;
+}
+#rectangle2
+{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-color: blue;
+    border-style:solid;
+    left: 88%;
+}
+#rectangle3
+{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-color: green;
+    border-style:solid;
+    top: 60%;
+}
+#rectangle4
+{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    border-style:solid;
+    left: 88%;
+    top: 60%;
+}
