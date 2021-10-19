@@ -1,0 +1,80 @@
+#left_hand {
+  width: 50px;
+  height: 120px;
+  position: absolute;
+  background-color: blue;
+  border-radius: 100px;
+  top: 205px;
+  left: 410px;
+  transition: transform 2s;
+}
+#right_hand {
+  width: 50px;
+  height: 120px;
+  position: absolute;
+  background-color: blue;
+  border-radius: 100px;
+  top: 205px;
+  left: 710px;
+  transition: transform 2s;
+}
+#left_leg {
+  width: 50px;
+  height: 140px;
+  position: absolute;
+  background-color: blue;
+  border-radius: 100px;
+  top: 430px;
+  left: 502px;
+}
+#right_leg {
+  width: 50px;
+  height: 140px;
+  position: absolute;
+  background-color: blue;
+  border-radius: 100px;
+  top: 430px;
+  left: 612px;
+}
+#corps {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  background-color: blue;
+  top: 205px;
+  left: 483px;
+  border-radius: 0 0 35px 35px;
+}
+#head {
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+  position: absolute;
+  border-radius: 100px 100px 0 0;
+  top: 6%;
+  left: 483px;
+}
+#eyes {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  border-radius: 100px;
+  top: 20%;
+  left: 520px;
+}
+#eyes2 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  border-radius: 100px;
+  top: 20%;
+  left: 599px;
+}
+#left_hand:hover {
+  transform: rotate(150deg);
+}
+#right_hand:hover {
+  transform: rotate(-150deg);
+}
